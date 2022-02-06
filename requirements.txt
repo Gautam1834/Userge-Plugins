@@ -1,6 +1,6 @@
 cairosvg
-coffeehouse
 colour
+countryinfo
 git+https://github.com/TomyPrs/deezloader
 emoji-country-flag
 gdshortener
@@ -13,6 +13,7 @@ humanize
 justwatch
 lottie
 newspaper3k
+psutil
 pydub
 pylast
 pyfiglet
@@ -20,4 +21,4 @@ python-arq
 qrcode
 tracemoepy
 validators
-psutil
+

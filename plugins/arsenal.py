@@ -13,9 +13,9 @@ async def banager(
 ) -> str:
     log_msg = ''
     try:
-        await message.client.kick_chat_member(chat_id=chat_id,
-                                              user_id=user_id,
-                                              until_date=until_date)
+        await message.client.ban_chat_member(chat_id=chat_id,
+                                             user_id=user_id,
+                                             until_date=until_date)
         log_msg = 'Success'
     except FloodWait as fw:
         _LOG.info("Sleeping for some time due to flood wait")
